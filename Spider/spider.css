@@ -27,7 +27,6 @@ html:hover .spider{
   width: 2px;
   height: 200px;
   margin-left: 49px;
-  transition: 1s ease-in-out;
 }
 
 .spider{
@@ -37,6 +36,7 @@ html:hover .spider{
   left: 30%;
   animation: swing 2s infinite;
   transform-origin: top;
+    transition: 1s ease-in-out;
 }
 
 .spider .body{
@@ -56,10 +56,10 @@ html:hover .spider{
   border-radius: 50%;
 }
 
-.spider .eye.right{
+.spider .body .eye.right{
   right: 15px;
 }
-.spider .eye.left{
+.spider .body .eye.left{
   left: 15px;
 }
 
